@@ -1,0 +1,40 @@
+1. 
+store "massa benda" with any value
+store "percepatan benda" with any value
+store "resultan gaya" without any value
+
+calculate "massa benda" times "percepatan gaya"
+set "resultan gaya" value with calculation result
+
+display "resultan gaya" 
+
+2. 
+store "tahun" with any value
+if "tahun" modulus 4 = 0
+then "tahun" modulus 100 = 0
+then "tahun" modulus 400 = 0
+display "tahun"
+print "tahun kabisat"
+else 
+display "tahun"
+print "bukan tahun kabisat"
+
+3.
+store "baju" with 0
+
+while "baju" < 20
+add "baju" by 1
+
+display "mesin cuci penuh"
+
+4.
+store "siswa" to 0
+
+while "siswa" < 40
+add "siswa" by 1
+store "kuku panjang"
+if "kuku panjang" equals to 0
+display "Puji"
+else
+display "hukum"
+
